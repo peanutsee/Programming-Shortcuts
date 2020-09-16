@@ -1,2 +1,6 @@
-# Python-Cheats
-Stash of random Python cheats for common codewars application.
+# What is this?
+Repo to stash my daily used codes. 
+
+# How can I use this?
+Crtl+C and Crtl+V
+
