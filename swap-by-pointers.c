@@ -11,7 +11,7 @@ int main()
     a=5;
     b=10;
 
-    fun(&a,&b);
+    fun(&a,&b); // call by referencing 
 
     printf("%d %d\n",a,b);
 
@@ -25,8 +25,8 @@ void fun(int *px,int *py)
 
     int temp;
 
-    temp=*px;
-    *px=*py;
-    *py=temp;
+    temp=*px; // temp stores contents of memory location of a
+    *px=*py; // contents at memory location of a is replaced by contents at memory location of b
+    *py=temp; // contents at memory location of b is replaced by contents at memory location of temp
 
 }
